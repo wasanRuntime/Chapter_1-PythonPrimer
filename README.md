@@ -16,3 +16,7 @@ one or more numbers, and returns the smallest and largest numbers, in the
 form of a tuple of length two. Do not use the built-in functions min or
 max in implementing your solution
 [solution](r-1-3-minmax.py)
+
+R-1.4 Write a short Python function that takes a positive integer n and returns
+the sum of the squares of all the positive integers smaller than n.
+[solution](r-1-4-sum_of_squares.py)

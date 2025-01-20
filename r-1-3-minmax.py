@@ -15,7 +15,7 @@ def minmax(data):
             min = data[i]
     #x.append(min)
     #x = x.append(max)
-    x = min, max
-    return x
+    return (min, max)
+    
 data = (2, 3, 20, 100, 5, 6, 80, 23)
 print(minmax(data))
