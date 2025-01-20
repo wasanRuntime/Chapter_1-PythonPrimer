@@ -20,3 +20,9 @@ max in implementing your solution
 R-1.4 Write a short Python function that takes a positive integer n and returns
 the sum of the squares of all the positive integers smaller than n.
 [solution](r-1-4-sum_of_squares.py)
+
+R-1.5 Give a single command that computes the sum from Exercise R-1.4, relying on Python’s comprehension syntax and the built-in sum function.
+[solution](r-1-5-sqaure_sum_funct.py)
+
+
+
