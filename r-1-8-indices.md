@@ -1,8 +1,9 @@
 If a string s has length `n`, and we use a negative index `k` (where `-n ≤ k < 0`), the equivalent non-negative index `j` can be found using the formula:
 
-`𝑗 = 𝑛 + 𝑘`
+
 `j=n+k`
-*Explanation:*
+
+**Explanation:**
 
 In Python, negative indices count from the end of the sequence.
 `s[-1]` refers to the last character of `s`, which is `s[n-1]`.
