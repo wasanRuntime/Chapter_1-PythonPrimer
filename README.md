@@ -63,9 +63,21 @@ C-1.13 Write a pseudo-code description of a function that reverses a list of n
 integers, so that the numbers are listed in the opposite order than they
 were before, and compare this method to an equivalent Python function
 for doing the same thing
-[Solution](r-1-13-reversing.py)
+[Solution](c-1-13-reversing.py)
 
 C-1.14 Write a short Python function that takes a sequence of integer values and
 determines if there is a distinct pair of numbers in the sequence whose
 product is odd
-[solution](r-1-14-has_odd_product_pair.py)
+[solution](c-1-14-has_odd_product_pair.py)
+
+C-1.15 Write a Python function that takes a sequence of numbers and determines
+if all the numbers are different from each other (that is, they are distinct).
+[solution](c-1-15-are_all_numbers_distinct.py)
+
+C-1.16 In our implementation of the scale function (page 25), the body of the loop
+executes the command data[j] = factor. We have discussed that numeric
+types are immutable, and that use of the = operator in this context causes
+the creation of a new instance (not the mutation of an existing instance).
+How is it still possible, then, that our implementation of scale changes the
+actual parameter sent by the caller?
+[solution](c-1-16-mutation.md)
