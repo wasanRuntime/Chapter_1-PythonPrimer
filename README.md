@@ -28,6 +28,16 @@ R-1.6 Write a short Python function that takes a positive integer n and returns
 the sum of the squares of all the odd positive integers smaller than n.
 [solution](r-1-6-sum_square_odd.py)
 
+R-1.7 Give a single command that computes the sum from Exercise R-1.6, relying on Python’s comprehension syntax and the built-in sum function.
+[solution](r-1-7-compreh_sum_square_odd.py)
+
+R-1.8 Python allows negative integers to be used as indices into a sequence,
+such as a string. If string s has length n, and expression s[k] is used for index −n ≤ k < 0, what is the equivalent index j ≥ 0 such that s[j] references
+the same element?
+[solution](r-1-7-indices.md)
+
+
+
 
 
 
