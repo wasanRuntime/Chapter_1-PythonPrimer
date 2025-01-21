@@ -1,6 +1,8 @@
 # Chapter 1 Python Primer
 `Chapter one of Data Structure and Algorithm`
 
+### Reinforcement
+
 R-1.1 Write a short Python function, is multiple(n, m), that takes two integer
 values and returns True if n is a multiple of m, that is, n = mi for some
 integer i, and False otherwise.
@@ -55,3 +57,15 @@ range. Using only the randrange function, implement your own version
 of the choice function.
 [Solution](r-1-12-my_choice.py)
 
+### Creativity
+
+C-1.13 Write a pseudo-code description of a function that reverses a list of n
+integers, so that the numbers are listed in the opposite order than they
+were before, and compare this method to an equivalent Python function
+for doing the same thing
+[Solution](r-1-13-reversing.py)
+
+C-1.14 Write a short Python function that takes a sequence of integer values and
+determines if there is a distinct pair of numbers in the sequence whose
+product is odd
+[solution](r-1-14-has_odd_product_pair.py)
