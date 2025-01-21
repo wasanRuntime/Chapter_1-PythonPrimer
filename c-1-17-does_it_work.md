@@ -5,7 +5,7 @@ This only affects val inside the loop, leaving data unchanged.
 
 *Correct Way to Modify the List*
 
-`
+```python
 def scale(data, factor):
     for i in range(len(data)):  # Iterate using indices
         data[i] *= factor  # Modify the list in place
