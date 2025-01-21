@@ -81,3 +81,20 @@ the creation of a new instance (not the mutation of an existing instance).
 How is it still possible, then, that our implementation of scale changes the
 actual parameter sent by the caller?
 [solution](c-1-16-mutation.md)
+
+C-1.17 Had we implemented the scale function (page 25) as follows, does it work
+properly?
+def scale(data, factor):
+for val in data:
+val = factor
+Explain why or why not.
+C-1.17 Had we implemented the scale function (page 25) as follows, does it work
+properly?
+`
+def scale(data, factor):
+for val in data:
+val = factor
+`
+Explain why or why not.
+[solution](c-1-17-does_it_work.md)
+
