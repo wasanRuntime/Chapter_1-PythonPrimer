@@ -119,3 +119,34 @@ until an EOFError is raised, and then outputs those lines in reverse order
 (a user can indicate end of input by typing ctrl-D).
 [solution](c-1-21-eof_error.py)
 
+C-1.22 Write a short Python program that takes two arrays a and b of length n
+storing int values, and returns the dot product of a and b. That is, it returns
+an array c of length n such that c[i] = a[i] · b[i], for i = 0,...,n−1.
+[solution](c-1-22-dot_product.py)
+
+C-1.23 Give an example of a Python code fragment that attempts to write an element to a list based on an index that may be out of bounds. If that index
+is out of bounds, the program should catch the exception that results, and
+print the following error message:
+“Don’t try buffer overflow attacks in Python!”
+[solution](c-1-23-write_to_list.py)
+
+C-1.24 Write a short Python function that counts the number of vowels in a given
+character string.
+[solution](c-1-24-count_vowel.py)
+
+C-1.25 Write a short Python function that takes a string s, representing a sentence,
+and returns a copy of the string with all punctuation removed. For example, if given the string "Let s try, Mike.", this function would return
+"Lets try Mike".
+[solution](c-1-25-remove_panctuation.py)
+
+C-1.26 Write a short program that takes as input three integers, a, b, and c, from
+the console and determines if they can be used in a correct arithmetic
+formula (in the given order), like “a+b = c,” “a = b−c,” or “a ∗ b = c.”
+[solution](c-1-26-check_arithmetic_formula.py)
+
+C-1.27 In Section 1.8, we provided three different implementations of a generator
+that computes factors of a given integer. The third of those implementations, from page 41, was the most efficient, but we noted that it did not
+yield the factors in increasing order. Modify the generator so that it reports
+factors in increasing order, while maintaining its general performance advantages.
+[solution](c-1-27-yield_factor.py)
+
